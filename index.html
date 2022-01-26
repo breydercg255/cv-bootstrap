@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My CV made with HTML, CSS and Bootstrap!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--Navbar-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <button class="navbar-toggler ml-auto bg-warning text-light" type="button" data-toggle="collapse" data-target="#navbar-others-dropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>Menu
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-others-dropdown">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item mx-3">
+                        <a href="#presentation" class="nav-link">Presentación</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a href="#personal-info" class="nav-link">Información personal</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a href="#experience-education" class="nav-link">Experiencia y educación</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a href="#technical-skills" class="nav-link">Habilidades técnicas</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownOthers" data-toggle="dropdown" aria-expanded="false">
+                            Otros
+                        </a>
+                        <div class="dropdown-menu others-dropdown" aria-labelledby="dropdownOthers">
+                            <a href="#prizes" class="dropdown-item text-light">Premios</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#certificates-references" class="dropdown-item text-light">Certificados y referencias personales</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#hobbies-test" class="dropdown-item text-light">Hobbies y test de competencias Computrabajo</a>
+                        </div>                
+                    </li>
+                </ul>  
+            </div>
+        </nav>
+    </header>
+    <!--Presentation-->
+    <section id="presentation">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mt-5 mb-5">
+                    <div class="jumbotron-fluid text-center">
+                        <div class="container">
+                            <div class="text-center">
+                                <img src="assets/img/me.jpeg" class="img-fluid rounded-circle my-picture" alt="My picture">
+                            </div>
+                            <h1>
+                                Breyder Camilo<br>González Castillo
+                            </h1>
+                            <h3>
+                                Analista y Desarrollador de Sistemas de Información
+                            </h3>
+                            <h5>Me gusta estar en constante aprendizaje, aprender cosas nuevas de los
+                                demás y aplicar mis habilidades a diversos entornos tanto como me sea
+                                posible; con el objetivo de dar valor.
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 text-center mt-5 my-auto">
+                    <h3 class="section-title"><i class="fas fa-user-circle"></i> Perfil</h3>
+                    <p class="text-justify">
+                        Actualmente, soy un estudiante autónomo de tecnologías de la información. Como desarrollador
+                        web junior, poseo conocimientos en los lenguajes de desarrollo front-end principales &lpar;HTML5, CSS3
+                        y JavaScript&rpar;, además del framework de diseño Bootstrap 4. En cuanto a desarrollo backend, poseo
+                        conocimientos sobre los lenguajes de programación Java y Python, junto al entorno de desarrollo
+                        NodeJS. Y para la gestión de bases de datos, tengo conocimientos sólidos en MySQL (usando
+                        comunmente el gestor de bases de datos conocido como MySQL Workbench).<br /><br />
+                        Como conicimiento adicional, tengo experiencia con los archivos en formato JSON, con el control de
+                        APIs y con el software de automatización Selenium. Además de la librería Beautiful Soup de Python
+                        para obtener información de sitios web a partir de su código fuente.<br /><br />
+                        Soy alguien que siempre se encuentra dispuesto a cooperar con los demás en todo lo que sea
+                        posible, y a dar ideas que permitan el correcto desarrollo de los proyectos presentes, pues a partir
+                        de la comunicación considero que está la clave para que todo pueda ser realizado con éxito.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Personal info-->
+    <section id="personal-info">
+        <div class="container-fluid text-center">
+            <h3 class="section-title"><i class="fas fa-info-circle"></i> Datos personales</h3>
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-5 cold-md-10 col-sm-12">
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">
+                            <h5>Correo electrónico:</h5>
+                            <p>breydercg358@gmail.com</p>
+                        </li>
+                        <li class="list-group-item">
+                            <h5>Teléfono fijo:</h5>
+                            <p>5859282</p>
+                        </li>
+                        <li class="list-group-item">
+                            <h5>Teléfono celular:</h5>
+                            <p>+57 3245905750</p>
+                        </li>
+                        <li class="list-group-item">
+                            <h5>Fecha de nacimiento:</h5>
+                            <p>13 de septiembre de 2001</p>
+                        </li>
+                        <li class="list-group-item">
+                            <h5>Lugar de nacimiento:</h5>
+                            <p>Medellín, Antioquia</p>
+                        </li>
+                        <li class="list-group-item">
+                            <h5>Número de identificación</h5>
+                            <p>C.C. 1000290467</p>
+                        </li>
+                        <li class="list-group-item">
+                            <h5>LinkedIn:</h5>
+                            <p>
+                                <a href="https://www.linkedin.com/in/breydergonzalez358/" target="_blank">
+                                    https://www.linkedin.com/in/<br>breydergonzalez358/
+                                </a>
+                            </p>
+                        </li>                            
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Experience and education-->
+    <section id="experience-education">
+        <div class="container-fluid">                        
+            <div class="row text-center">        
+                <!--Experience-->        
+                <div class="col-lg-6 col-sm-12">
+                    <h3 class="section-title"><i class="fas fa-briefcase"></i> Experiencia</h3>
+                    <div class="jumbotron-fluid">
+                        <img src="assets/img/pollocoa_logo.png" class="img-fluid exp-logo my-3" alt="Pollocoa logo">
+                        <p><b>Nombre:</b> Cárnicos y Alimentos SAS</p>
+                        <p><b>Lugar:</b> Medellín, Antioquia</p>
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <p><b>Desde:</b> diciembre de 2020</p>
+                            </div>
+                            <div class="col-lg-6 cold-md-12">
+                                <p><b>Hasta:</b> junio de 2021 &lpar;6 meses&rpar;</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 my-auto">
+                                <p><b>Cargo:</b> practicante en el área de sistemas</p>
+                            </div>
+                            <div class="col-lg-6 cold-md-12">
+                                <p><b>Tareas realizadas:</b></p>
+                                <div class="list-group list-group-flush experience-tasks-div">
+                                    <li class="list-group-item">
+                                        <b>-</b> Soporte técnico al usuario final,
+                                        gestionando una base de datos
+                                        habilitada para un aplicativo web de la
+                                        empresa.
+                                    </li>
+                                    <li class="list-group-item">
+                                        <b>-</b> Soporte a nivel de hardware y software
+                                        cuando era solicitado por los usuarios
+                                        de la empresa.
+                                    </li>
+                                    <li class="list-group-item">
+                                        <b>-</b> Desarrollo de un proyecto web
+                                        relacionado a una matriz de riesgos del
+                                        área de SST de la empresa. Usé
+                                        tecnologías como: HTML, CSS,
+                                        Bootstrap Framework, NodeJS y MySQL.
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Education-->
+                <div class="col-lg-6 col-md-12 education-column">
+                    <h3 class="section-title"><i class="fas fa-graduation-cap"></i> Educación</h3>
+                    <div class="list-group list-group-flush education-list-group">
+                        <div class="jumbotron-fluid mt-4">
+                            <h4>Tecnólogo en Análisis y Desarrollo de Sistemas de Información</h4>
+                            <h5>Servicio Nacional de Aprendizaje &lpar;SENA&rpar;</h5>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12">
+                                    <h6>Desde: febrero de 2019</h6>
+                                </div>
+                                <div class="col">
+                                    <h6>Hasta: junio de 2021</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="jumbotron-fluid mt-5">
+                            <h4>Técnico en Desarrollo de Software</h4>
+                            <h5>Servicio Nacional de Aprendizaje &lpar;SENA&rpar;</h5>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12">
+                                    <h6>Desde: enero de 2017</h6>
+                                </div>
+                                <div class="col">
+                                    <h6>Hasta: noviembre de 2018</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="jumbotron-fluid mt-5">
+                            <h4>Bachiller Académico</h4>
+                            <h5>Institución Educativa José María Bravo Márquez</h5>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12">
+                                    <h6>Desde: enero de 2013</h6>
+                                </div>
+                                <div class="col">
+                                    <h6>Hasta: noviembre de 2018</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Technical skills-->
+    <section id="technical-skills">
+        <div class="container-fluid">
+            <h3 class="text-center mb-4 section-title"><i class="fas fa-network-wired"></i> Habilidades técnicas</h3>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#collapseTechnologies" aria-expanded="false" aria-controls="collapseExample">
+                                Tecnologías <i class="fas fa-sort-down"></i>
+                            </button>
+                        </div>
+                        <div class="collapse" id="collapseTechnologies">
+                            <div class="body">
+                                <div class="list-group text-center">
+                                    <div class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <i class="fab fa-html5 fa-lg"></i>
+                                            </div>
+                                            <div class="col-4">
+                                                <h6>HTML 5</h6>
+                                            </div>
+                                            <div class="col-4">
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="far fa-square fa-xs"></i>
+                                            </div>
+                                        </div>   
+                                    </div>                                 
+                                    <div class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <i class="fab fa-css3 fa-lg"></i>
+                                            </div>
+                                            <div class="col-4">
+                                                <h6>CSS3</h6>
+                                            </div>
+                                            <div class="col-4">
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="far fa-square fa-xs"></i>
+                                            </div>
+                                        </div>   
+                                    </div>  
+                                    <div class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <i class="fab fa-js fa-lg"></i>
+                                            </div>
+                                            <div class="col-4">
+                                                <h6>JavaScript</h6>
+                                            </div>
+                                            <div class="col-4">
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="far fa-square fa-xs"></i>
+                                            </div>
+                                        </div>   
+                                    </div>  
+                                    <div class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <i class="fab fa-python fa-lg"></i>
+                                            </div>
+                                            <div class="col-4">
+                                                <h6>Python</h6>
+                                            </div>
+                                            <div class="col-4">
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="far fa-square fa-xs"></i>
+                                            </div>
+                                        </div>   
+                                    </div> 
+                                    <div class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <i class="fab fa-bootstrap fa-lg"></i>
+                                            </div>
+                                            <div class="col-4">
+                                                <h6>Bootstrap</h6>
+                                            </div>
+                                            <div class="col-4">
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="far fa-square fa-xs"></i>
+                                                <i class="far fa-square fa-xs"></i>
+                                            </div>
+                                        </div>   
+                                    </div>   
+                                    <div class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <i class="fab fa-node fa-lg"></i>
+                                            </div>
+                                            <div class="col-4">
+                                                <h6>NodeJS</h6>
+                                            </div>
+                                            <div class="col-4">
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="far fa-square fa-xs"></i>
+                                                <i class="far fa-square fa-xs"></i>
+                                            </div>
+                                        </div>   
+                                    </div>  
+                                    <div class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src="assets/img/mysql.png" class="mysql-logo">
+                                            </div>
+                                            <div class="col-4">
+                                                <h6>MySQL</h6>
+                                            </div>
+                                            <div class="col-4">
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="fas fa-square fa-xs"></i>
+                                                <i class="far fa-square fa-xs"></i>
+                                                <i class="far fa-square fa-xs"></i>
+                                            </div>
+                                        </div>   
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#collapseCapabilites" aria-expanded="false" aria-controls="collapseExample">
+                                Capacidades <i class="fas fa-sort-down"></i>
+                            </button>
+                        </div>
+                        <div class="collapse" id="collapseCapabilites">
+                            <div class="body">
+                                <div class="list-group text-center">
+                                    <div class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h6>Resiliencia</h6>
+                                            </div>
+                                            <div class="col-6">
+                                                <i class="fas fa-square fa-sm"></i>
+                                                <i class="fas fa-square fa-sm"></i>
+                                                <i class="fas fa-square fa-sm"></i>
+                                                <i class="fas fa-square fa-sm"></i>
+                                                <i class="fas fa-square fa-sm"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h6>Concentración</h6>
+                                            </div>
+                                            <div class="col-6">
+                                                <i class="fas fa-square fa-sm"></i>
+                                                <i class="fas fa-square fa-sm"></i>
+                                                <i class="fas fa-square fa-sm"></i>
+                                                <i class="fas fa-square fa-sm"></i>
+                                                <i class="fas fa-square fa-sm"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h6>Autonomía</h6>
+                                            </div>
+                                            <div class="col-6">
+                                                <i class="fas fa-square fa-sm"></i>
+                                                <i class="fas fa-square fa-sm"></i>
+                                                <i class="fas fa-square fa-sm"></i>
+                                                <i class="fas fa-square fa-sm"></i>
+                                                <i class="far fa-square fa-sm"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h6>Trabajo en equipo</h6>
+                                            </div>
+                                            <div class="col-6">
+                                                <i class="fas fa-square fa-sm"></i>
+                                                <i class="fas fa-square fa-sm"></i>
+                                                <i class="fas fa-square fa-sm"></i>
+                                                <i class="fas fa-square fa-sm"></i>
+                                                <i class="far fa-square fa-sm"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mx-auto">
+                    <div class="card">
+                        <div class="card-header">
+                            <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#collapseLanguages" aria-expanded="false" aria-controls="collapseExample">
+                                Idiomas <i class="fas fa-sort-down"></i>
+                            </button>
+                        </div>
+                        <div class="collapse" id="collapseLanguages">
+                            <div class="body">
+                                <div class="list-group">
+                                    <div class="row text-center">
+                                        <div class="col-4 my-auto">
+                                            <img src="assets/img/usa_flag.png" class="usa-flag">
+                                        </div>
+                                        <div class="col-4 my-auto">
+                                            <h6>Inglés</h6>
+                                        </div>
+                                        <div class="col-4">
+                                            <p>B2<br />&lpar;capacidad para comunicarme escrita y verbalmente&rpar;</p>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Prizes-->
+    <section id="prizes">
+        <div class="container-fluid text-center">
+            <div class="jumbotron-fluid">
+                <h3 class="section-title"><i class="fas fa-award mb-4"></i> Premios</h3>                
+                <h4>Mención de honor:</h4>
+                <h5>Reconocimiento a la excelencia académica y actitudinal</h5>
+                <h6>Mayo de 2019</h6>                
+            </div>
+        </div>
+    </section>
+    <!--Certificates and personal references-->
+    <section id="certificates-references">
+        <div class="container-fluid">
+            <div class="row">
+                <!--Certifications-->
+                <div class="col-lg-6 col-md-12">
+                    <h3 class="text-center mb-4 section-title"><i class="fas fa-scroll"></i> Certificados</h3>
+                    <div class="list-group list-group-flush text-center">
+                        <div class="list-group-item">
+                            <div class="jumbotron-fluid">
+                                <h5>Certificado de participación en:</h5>
+                                <h6>Escuela de liderazgo SENA primer semestre</h6>
+                            </div>
+                        </div>
+                        <div class="list-group-item">
+                            <div class="jumbotron-fluid">
+                                <h5>Certificado de inglés SENA:</h5>
+                                <h6>Inglés Básico - Niveles 1, 2 y 3</h6>
+                            </div>
+                        </div>
+                        <div class="list-group-item">
+                            <div class="jumbotron-fluid">
+                                <h5>Certificado de inglés gratuito:</h5>
+                                <h6>EF SET English Certificate 72/100 &lpar;C2 Proficient&rpar;</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Personal references-->
+                <div class="col-lg-6 col-md-12 references-column">
+                    <h3 class="text-center mb-4 section-title"><i class="fas fa-book"></i> Referencias personales</h3>
+                    <div class="list-group list-group-flush text-center">
+                        <div class="list-group-item">
+                            <div class="jumbotron-fluid">
+                                <h5>Brayan Stiven González Castillo</h5>
+                                <h6>C.C. 1.152.464.377</h6>
+                                <p class="reference-detail">Auxiliar Logístico en Industrias Estra SA</p><br>
+                                <p class="reference-detail">Hermano mayor</p>
+                            </div>
+                        </div>
+                        <div class="list-group-item">
+                            <div class="jumbotron-fluid">
+                                <h5>Isabel Sofía Castillo Arrieta</h5>
+                                <h6>C.C. 43.739.974</h6>
+                                <p class="reference-detail">Ama de casa</p><br>
+                                <p class="reference-detail">Madre biológica</p>
+                            </div>
+                        </div>
+                        <div class="list-group-item">
+                            <div class="jumbotron-fluid">
+                                <h5>Reinaldo González Echeverri</h5>
+                                <h6>C.C. 71.734.050</h6>
+                                <p class="reference-detail">Guarda de Seguridad en Seguridad Privada Dorchester Ltda</p><br>
+                                <p class="reference-detail">Padre biológico</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Hobbies and test-->
+    <section id="hobbies-test">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <!--Hobbies-->
+                <div class="col-lg-12">
+                    <button class="btn btn-dark btn-lg rounded-0 w-50" type="button" data-toggle="collapse" data-target="#collapseHobbies" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-hourglass-half"></i> Hobbies <i class="fas fa-sort-down"></i></button>
+                </div>
+                <div class="row mx-auto collapse" id="collapseHobbies">
+                    <div class="col-lg-12">
+                        <div class="list-group">
+                            <div class="list-group-item"><i class="fas fa-globe-americas"></i><h6>Aprender nuevos idiomas</h6></div>
+                            <div class="list-group-item"><i class="fas fa-running"></i><h6>Ejercitarme</h6></div>
+                            <div class="list-group-item"><i class="fas fa-angle-double-right"></i><h6>Crear nuevos hábitos para mejorar como persona y como profesional</h6></div>
+                            <div class="list-group-item"><i class="fas fa-gamepad"></i><h6>Jugar videojuegos</h6></div>
+                            <div class="list-group-item"><i class="fab fa-itunes-note"></i><h6>Escuchar música</h6></div>                            
+                        </div> 
+                    </div>
+                </div>
+                <!--Test-->
+                <div class="col-lg-12 mt-5">
+                    <button class="btn btn-dark btn-lg rounded-0 w-50" type="button" data-toggle="collapse" data-target="#collapseTestTbl" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-chart-pie"></i> Test de competencias computrabajo <i class="fas fa-sort-down"></i></button>
+                </div>
+                <div class="row mx-auto mt-3 collapse" id="collapseTestTbl">
+                    <div class="col-lg-12">
+                        <table class="table table-hover">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>Competencia</th>
+                                    <th>Puntaje</th>
+                                    <th>Descripción</th>                            
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Responsabilidad</td>
+                                    <td class="green-score">71</td>
+                                    <td>
+                                        Tiende a responder bien ante
+                                        cambios de tarea.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Autogestión</td>
+                                    <td class="green-score">64</td>
+                                    <td>
+                                        Normalmente su rendimiento
+                                        mejora si puede organizar su
+                                        propio trabajo.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Liderazgo</td>
+                                    <td class="green-score">54</td>
+                                    <td>
+                                        Es capaz de tomar decisiones
+                                        que afecten a otros y de tomar la
+                                        iniciativa.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Motivación</td>
+                                    <td class="blue-score">32</td>
+                                    <td>
+                                        Siente menor motivación por la
+                                        consecución de objetivos a corto
+                                        plazo.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Inteligencia social</td>
+                                    <td class="blue-score">36</td>
+                                    <td>
+                                        En ocasiones no sabe elegir la
+                                        palabra adecuada para
+                                        congeniar socialmente o no
+                                        desentonar.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Autonomía</td>
+                                    <td class="green-score">61</td>
+                                    <td>
+                                        Tiende a no delegar ni compartir
+                                        tareas, así como recelar ante la
+                                        supervisión.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Arbitraje</td>
+                                    <td class="green-score">64</td>
+                                    <td>
+                                        Tiende a conceder el bene􀁺cio
+                                        de la duda y a mantener la calma
+                                        en una discusión.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Cooperación</td>
+                                    <td class="blue-score">46</td>
+                                    <td>
+                                        Puede trabajar en equipo a pesar
+                                        de su descon􀁺anza en el trato
+                                        con los demás.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>                        
+        </div>
+    </section>    
+  </body>
+</html>
