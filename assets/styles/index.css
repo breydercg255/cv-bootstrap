@@ -44,6 +44,9 @@ tbody tr:hover, tbody tr:hover td {
     color: #fff;
     font-weight: bold;
 }
+td {
+    height: 50px; 
+}
 .card {
     border-radius: 0;
 }
