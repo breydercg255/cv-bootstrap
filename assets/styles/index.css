@@ -139,6 +139,18 @@ td {
     border-bottom: 1px solid #F0A500;    
     display: inline-block;
 }
+.english-element {
+    display: none;
+}
+#switch-spanish-btn {
+    display: none;
+}
+#switch-english-btn {
+    display: inline;
+}
+#switch-english-btn, #switch-spanish-btn {
+    border: 2px solid #F0A500;
+}
 #presentation {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
 }
